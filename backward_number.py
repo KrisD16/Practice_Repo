@@ -1,10 +1,10 @@
-n = int(input("Enter a number: "))
+number = int(input("Enter a number: "))
 digit = 0
 m = 0
 
-while n > 0:
-    digit = n % 10
+while number > 0:
+    digit = number % 10
     m = m * 10 + digit
-    n = n // 10
+    number //= 10
 
 print(m)
